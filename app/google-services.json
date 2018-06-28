@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "513194795005",
+    "firebase_url": "https://puroapp-c85d9.firebaseio.com",
+    "project_id": "puroapp-c85d9",
+    "storage_bucket": "puroapp-c85d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513194795005:android:85c28b7905c427e5",
+        "android_client_info": {
+          "package_name": "com.example.telematica.puroapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "513194795005-opqmtvmb6tbjj6na5nk0mjcsnhcpljo1.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "513194795005-opqmtvmb6tbjj6na5nk0mjcsnhcpljo1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-sAE6BrLsf14ObZYzIlhLME1pb7ixIPI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
