@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity{
     //TextView humValue,tempCValue,tempFValue;
     Double humValue,tempCValue,tempFValue;
     SwipeRefreshLayout nswipeRefreshLayout;
-
+    Double global; // variable global para hacer giribillas
     ListView lista;
 
 
@@ -77,49 +77,24 @@ public class MainActivity extends AppCompatActivity{
 
         FireIDService onRefresh = new FireIDService();
         //FireMsgService recibemMSg = new FireMsgService();
-
-
         onRefresh.onTokenRefresh();
 
         nswipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
-                        /*btnData.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {*/
-                primary.child("humid").addListenerForSingleValueEvent(new ValueEventListener() {
-                    @Override
-                    public void onDataChange(DataSnapshot dataSnapshot) {
-                        Double humid = dataSnapshot.getValue(Double.class);
-                        humValue = humid;
-                    }
-                    @Override
-                    public void onCancelled(DatabaseError databaseError) {
-                    }
-                });
-                primary.child("tempC").addListenerForSingleValueEvent(new ValueEventListener() {
-                    @Override
-                    public void onDataChange(DataSnapshot dataSnapshot) {
-                        Double tempC = dataSnapshot.getValue(Double.class);
-                        tempCValue = tempC;
-                    }
-                    @Override
-                    public void onCancelled(DatabaseError databaseError) {
-                    }
-                });
-                primary.child("tempF").addListenerForSingleValueEvent(new ValueEventListener() {
-                    @Override
-                    public void onDataChange(DataSnapshot dataSnapshot) {
-                        Double tempF = dataSnapshot.getValue(Double.class);
-                        tempFValue = tempF;
-                    }
-                    @Override
-                    public void onCancelled(DatabaseError databaseError) {
-                    }
-                });
+                humValue = getFirebaseDataFromChild("humid");
+                tempCValue= getFirebaseDataFromChild("tempC");
+                tempFValue= getFirebaseDataFromChild("tempF");
+                String [][] datos = {
+                        {"Relative Humidity: ", String.valueOf(humValue)},
+                        {"Centigrade Tempretarure: ", String.valueOf(tempCValue)},
+                        {"Farenheit Temperature: ", String.valueOf(tempFValue)}
 
-        /*});
-    }*/
+                };
+                lista.setAdapter(null); //vacias la lista
+                lista.setAdapter(new Adaptador(getApplicationContext(),datos,datosImg));
+                nswipeRefreshLayout.setRefreshing(false); //para parar la animacion de refrescado
+
 
             }
         });
@@ -136,6 +111,33 @@ public class MainActivity extends AppCompatActivity{
 
         lista.setAdapter(new Adaptador(this,datos,datosImg));
     }
+
+    /**
+     *  una sola funcion para todas las peticiones
+     * @param child
+     * @return
+     */
+
+    private Double getFirebaseDataFromChild(final String child) {
+         Double value;
+        primary.child(child).addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                global = dataSnapshot.getValue(Double.class);
+                Toast.makeText(getApplicationContext(), child+" : "+global, Toast.LENGTH_SHORT).show();
+                 }
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+                Log.d("error", "onCancelled: "+databaseError.getMessage());
+                global= 0.0;
+            }
+
+
+        });
+        value= global;
+        return value;
+    }
+
     @Override
     protected void onResume() {
         super.onResume();
