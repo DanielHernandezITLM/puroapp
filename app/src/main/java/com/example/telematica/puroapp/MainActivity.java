@@ -1,11 +1,5 @@
 package com.example.telematica.puroapp;
 
-import android.app.NotificationManager;
-import android.app.PendingIntent;
-import android.content.Context;
-import android.content.Intent;
-import android.support.annotation.FloatRange;
-import android.support.v4.app.NotificationCompat;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -13,7 +7,6 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ListView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.telematica.puroapp.modelo.Adaptador;
@@ -23,12 +16,6 @@ import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.iid.FirebaseInstanceId;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.iid.FirebaseInstanceIdService;
-import com.google.firebase.messaging.FirebaseMessagingService;
-import com.google.firebase.messaging.RemoteMessage;
-
-import java.io.IOException;
-import java.util.List;
 
 
 public class MainActivity extends AppCompatActivity{
@@ -36,7 +23,8 @@ public class MainActivity extends AppCompatActivity{
     Button btnToken, btnData;
     DatabaseReference root,primary;
     //TextView humValue,tempCValue,tempFValue;
-    Double humValue,tempCValue,tempFValue;
+    Double arreglo[] = new Double[3];
+    Double humValue=0.0,tempCValue=0.0,tempFValue=0.0;
     SwipeRefreshLayout nswipeRefreshLayout;
     Double global; // variable global para hacer giribillas
     ListView lista;
@@ -63,6 +51,13 @@ public class MainActivity extends AppCompatActivity{
         //database reference pointing to demo node
         primary = root.child("iHumidStore");
 
+        btnData.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                actualizarDatosFirebase();
+            }
+        });
+
         btnToken.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -82,20 +77,8 @@ public class MainActivity extends AppCompatActivity{
         nswipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
-                humValue = getFirebaseDataFromChild("humid");
-                tempCValue= getFirebaseDataFromChild("tempC");
-                tempFValue= getFirebaseDataFromChild("tempF");
-                String [][] datos = {
-                        {"Relative Humidity: ", String.valueOf(humValue)},
-                        {"Centigrade Tempretarure: ", String.valueOf(tempCValue)},
-                        {"Farenheit Temperature: ", String.valueOf(tempFValue)}
-
-                };
-                lista.setAdapter(null); //vacias la lista
-                lista.setAdapter(new Adaptador(getApplicationContext(),datos,datosImg));
+                actualizarDatosFirebase();
                 nswipeRefreshLayout.setRefreshing(false); //para parar la animacion de refrescado
-
-
             }
         });
 
@@ -110,6 +93,8 @@ public class MainActivity extends AppCompatActivity{
         };
 
         lista.setAdapter(new Adaptador(this,datos,datosImg));
+
+        actualizarDatosFirebase();
     }
 
     /**
@@ -118,30 +103,46 @@ public class MainActivity extends AppCompatActivity{
      * @return
      */
 
-    private Double getFirebaseDataFromChild(final String child) {
-         Double value;
+    private Double getFirebaseDataFromChild(final String child, final Integer pos) {
+        Double value[] = new Double[3];
         primary.child(child).addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 global = dataSnapshot.getValue(Double.class);
-                Toast.makeText(getApplicationContext(), child+" : "+global, Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getApplicationContext(), child+" : "+ global, Toast.LENGTH_SHORT).show();
+                arreglo[pos] = global;
                  }
             @Override
             public void onCancelled(DatabaseError databaseError) {
                 Log.d("error", "onCancelled: "+databaseError.getMessage());
                 global= 0.0;
             }
-
-
         });
-        value= global;
-        return value;
+        return null;
     }
 
     @Override
     protected void onResume() {
         super.onResume();
+        actualizarDatosFirebase();
+    }
 
+    public void actualizarDatosFirebase(){
+
+        humValue = getFirebaseDataFromChild("humid", 0);
+        tempCValue= getFirebaseDataFromChild("tempC", 1);
+        tempFValue= getFirebaseDataFromChild("tempF", 2);
+        humValue = arreglo[0];
+        tempCValue = arreglo[1];
+        tempFValue = arreglo[2];
+        String [][] datos = {
+                {"Relative Humidity: ", String.valueOf(humValue)},
+                {"Centigrade Tempretarure: ", String.valueOf(tempCValue)},
+                {"Farenheit Temperature: ", String.valueOf(tempFValue)}
+
+        };
+        lista.setAdapter(null); //vacias la lista
+        lista.setAdapter(new Adaptador(getApplicationContext(),datos,datosImg));
 
     }
 
