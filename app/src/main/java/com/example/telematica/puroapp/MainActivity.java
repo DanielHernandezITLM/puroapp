@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity{
     SwipeRefreshLayout nswipeRefreshLayout;
     Double global; // variable global para hacer giribillas
     ListView lista;
-
+    //comentario
 
     int[] datosImg = {R.drawable.humidity,R.drawable.thermometerc,R.drawable.thermometerf};
     @Override
