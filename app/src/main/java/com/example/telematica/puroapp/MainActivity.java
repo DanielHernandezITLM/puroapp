@@ -20,7 +20,7 @@ import com.google.firebase.database.FirebaseDatabase;
 
 public class MainActivity extends AppCompatActivity{
 
-    Button btnToken, btnData;
+    Button btnData;
     DatabaseReference root,primary;
     //TextView humValue,tempCValue,tempFValue;
     Double arreglo[] = new Double[3];
@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity{
         setContentView(R.layout.activity_main);
 
 
-        btnToken = (Button) findViewById(R.id.token);
         btnData =  (Button) findViewById(R.id.recibirData);
         /*humValue = (TextView) findViewById(R.id.humedad);
         tempCValue = (TextView) findViewById(R.id.temperaturaC);
@@ -58,21 +57,10 @@ public class MainActivity extends AppCompatActivity{
             }
         });
 
-        btnToken.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                String tkn = null;
-                tkn = FirebaseInstanceId.getInstance().getToken();
-                Toast.makeText(MainActivity.this, "Current token ["+tkn+"]",
-                        Toast.LENGTH_LONG).show();
-                Log.d("App", "Token ["+tkn+"]");
-            }
-        });
 
 
         FireIDService onRefresh = new FireIDService();
         //FireMsgService recibemMSg = new FireMsgService();
-        onRefresh.onTokenRefresh();
 
         nswipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
@@ -86,9 +74,9 @@ public class MainActivity extends AppCompatActivity{
 
         String [][] datos = {
 
-                {"Relative Humidity: ", String.valueOf(humValue)},
-                {"Centigrade Tempretarure: ", String.valueOf(tempCValue)},
-                {"Farenheit Temperature: ", String.valueOf(tempFValue)}
+                {"Relative Humidity", String.valueOf(humValue)},
+                {"Centigrade Tempretarure", String.valueOf(tempCValue)},
+                {"Farenheit Temperature", String.valueOf(tempFValue)}
 
         };
 

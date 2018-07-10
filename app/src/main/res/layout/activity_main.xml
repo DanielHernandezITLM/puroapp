@@ -4,182 +4,85 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/velvet"
+    android:background="@drawable/background"
     tools:context=".MainActivity">
 
 
-
-    <Button
-
-        android:id="@+id/token"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="35dp"
-        android:layout_alignParentBottom="true"
-
-        android:textAlignment="gravity"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
         android:gravity="center"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:background="@drawable/button_selector"
-        android:shadowColor="#A8A8A8"
-        android:shadowRadius="5"
-        android:text="Token FireBase"
-        android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints" />
+        android:orientation="vertical">
 
-    <Button
 
-        android:textAlignment="gravity"
-        android:gravity="center"
-        android:id="@+id/recibirData"
-        android:layout_width="match_parent"
-        android:layout_height="35dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:background="@drawable/button_selector"
-        android:shadowColor="#A8A8A8"
-        android:shadowRadius="5"
-        android:text="Retrive Data"
-        android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/token"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-    <!--
-       <TextView
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content"
-           android:layout_below="@+id/token"
-           android:layout_marginTop="50dp"
-           android:layout_toLeftOf="@+id/humedad"
-           android:text="Humedad Relativa: "
-           android:textSize="16dp"
-           android:textStyle="bold" />
-       <TextView
-           android:layout_marginTop="20dp"
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content"
-           android:text="Temperatura en Centigrados: "
-           android:layout_toLeftOf="@+id/temperaturaC"
-           android:layout_below="@+id/humedad"
-           android:textSize="16dp"
-           android:textStyle="bold"
-           />
-       <TextView
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content"
-           android:text="Temperatura en Farenheit: "
-           android:layout_toLeftOf="@+id/temperaturaF"
-           android:layout_below="@+id/temperaturaC"
-           android:layout_marginTop="40dp"
-           android:textSize="16dp"
-           android:textStyle="bold"
-           />
+        <ImageView
+            android:layout_width="96dp"
+            android:layout_height="98dp"
+            android:background="@drawable/logo" />
 
-       <TextView
-           android:id="@+id/humedad"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:layout_alignParentEnd="true"
-           android:layout_below="@+id/token"
-           android:layout_marginTop="50dp"
-           android:layout_marginEnd="100dp"
-           android:gravity="center_horizontal"
-           android:hint="0.0"
-           android:textSize="16dp" />
 
-       <TextView
-           android:layout_marginTop="20dp"
-           android:id="@+id/temperaturaC"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:layout_below="@+id/humedad"
-           android:layout_marginEnd="100dp"
-           android:layout_alignParentEnd="true"
-           android:gravity="center_horizontal"
-           android:hint="0.0"
-           android:textSize="16dp" />
-       <TextView
-           android:id="@+id/temperaturaF"
-           android:layout_marginTop="40dp"
-           android:layout_width="wrap_content"
-           android:layout_alignParentEnd="true"
-           android:layout_marginEnd="100dp"
-           android:layout_height="wrap_content"
-           android:layout_below="@+id/temperaturaC"
-           android:textSize="16dp"
-           android:hint="0.0"
-           android:gravity="center_horizontal"
-           -->
-    />
 
-    <android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/swiperefresh"
-        android:layout_width="368dp"
-        android:layout_height="373dp"
-        android:layout_above="@+id/token"
-        android:layout_below="@+id/textView"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/recibirData"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
-
-        <ListView
-            android:id="@+id/lista"
-            android:layout_width="368dp"
-            android:layout_height="373dp"
+        <android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/swiperefresh"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
             app:layout_constraintBottom_toTopOf="@+id/recibirData"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.913" />
-
-    </android.support.v4.widget.SwipeRefreshLayout>
+            app:layout_constraintVertical_bias="1.0">
 
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="180dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="65dp"
-        android:layout_marginTop="20dp"
-        android:text="iHumid"
-        android:textColor="#FFFF"
-        android:textSize="55dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+            <ListView
+                android:id="@+id/lista"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:layout_constraintBottom_toTopOf="@+id/recibirData"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.913" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="54dp"
-        android:layout_height="45dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginTop="36dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/textView"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/controls"
-        tools:ignore="MissingConstraints" />
+        </android.support.v4.widget.SwipeRefreshLayout>
 
-    <!-- <android.support.v4.widget.SwipeRefreshLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/swiperefresh"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/recibirData"
+
+            android:text="Actualizar"
+
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            android:textStyle="bold"
+
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:background="@drawable/buttonshape"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:id="@+id/Salir"
+
+            android:text="Salir"
+
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            android:textStyle="bold"
 
 
-    </android.support.v4.widget.SwipeRefreshLayout>
-    -->
+            android:layout_width="80dp"
+            android:layout_height="45dp"
+            android:background="@drawable/buttonshape"
+            />
+
+    </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>
