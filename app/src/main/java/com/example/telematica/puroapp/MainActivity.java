@@ -1,5 +1,7 @@
 package com.example.telematica.puroapp;
 
+import android.content.Intent;
+import android.support.annotation.NonNull;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,6 +12,8 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import com.example.telematica.puroapp.modelo.Adaptador;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.ValueEventListener;
@@ -20,7 +24,9 @@ import com.google.firebase.database.FirebaseDatabase;
 
 public class MainActivity extends AppCompatActivity{
 
-    Button btnData;
+    private FirebaseAuth.AuthStateListener firebaseAuthListener;
+
+    Button btnData, logOut;
     DatabaseReference root,primary;
     //TextView humValue,tempCValue,tempFValue;
     Double arreglo[] = new Double[3];
@@ -36,7 +42,7 @@ public class MainActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+        logOut = (Button) findViewById(R.id.logOut);
         btnData =  (Button) findViewById(R.id.recibirData);
         /*humValue = (TextView) findViewById(R.id.humedad);
         tempCValue = (TextView) findViewById(R.id.temperaturaC);
@@ -49,6 +55,15 @@ public class MainActivity extends AppCompatActivity{
         root = FirebaseDatabase.getInstance().getReference();
         //database reference pointing to demo node
         primary = root.child("iHumidStore");
+
+        setupFirebaseListener();
+
+        logOut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FirebaseAuth.getInstance().signOut();
+            }
+        });
 
         btnData.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -132,6 +147,36 @@ public class MainActivity extends AppCompatActivity{
         lista.setAdapter(null); //vacias la lista
         lista.setAdapter(new Adaptador(getApplicationContext(),datos,datosImg));
 
+    }
+
+    private void setupFirebaseListener(){
+        firebaseAuthListener = new FirebaseAuth.AuthStateListener() {
+            @Override
+            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
+                FirebaseUser user = firebaseAuth.getCurrentUser();
+                if(user != null){
+                }else{
+                    Toast.makeText(MainActivity.this, "Sesión Cerrada", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(MainActivity.this, InicioSesion.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                    startActivity(intent);
+                }
+            }
+        };
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        FirebaseAuth.getInstance().addAuthStateListener(firebaseAuthListener);
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        if(firebaseAuthListener != null){
+            FirebaseAuth.getInstance().removeAuthStateListener(firebaseAuthListener);
+        }
     }
 
 }
