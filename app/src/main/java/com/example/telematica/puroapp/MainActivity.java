@@ -20,13 +20,14 @@ import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.iid.FirebaseInstanceId;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.spark.submitbutton.SubmitButton;
 
 
 public class MainActivity extends AppCompatActivity{
 
     private FirebaseAuth.AuthStateListener firebaseAuthListener;
 
-    Button btnData, logOut;
+    SubmitButton btnData, logOut;
     DatabaseReference root,primary;
     //TextView humValue,tempCValue,tempFValue;
     Double arreglo[] = new Double[3];
@@ -42,8 +43,11 @@ public class MainActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        logOut = (Button) findViewById(R.id.logOut);
-        btnData =  (Button) findViewById(R.id.recibirData);
+
+        FirebaseUser userid = FirebaseAuth.getInstance().getCurrentUser() ;
+
+        logOut = (SubmitButton) findViewById(R.id.logOut);
+        btnData =  (SubmitButton) findViewById(R.id.recibirData);
         /*humValue = (TextView) findViewById(R.id.humedad);
         tempCValue = (TextView) findViewById(R.id.temperaturaC);
         tempFValue = (TextView) findViewById(R.id.temperaturaF);*/
@@ -54,7 +58,7 @@ public class MainActivity extends AppCompatActivity{
         //database reference pointing to root of database
         root = FirebaseDatabase.getInstance().getReference();
         //database reference pointing to demo node
-        primary = root.child("iHumidStore");
+        primary = root.child("Users").child(userid.getUid()).child("iHumid");
 
         setupFirebaseListener();
 
@@ -72,6 +76,8 @@ public class MainActivity extends AppCompatActivity{
             }
         });
 
+        btnData.clearAnimation();
+        btnData.clearFocus();
 
 
         FireIDService onRefresh = new FireIDService();

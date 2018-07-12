@@ -51,7 +51,7 @@
 
         </android.support.v4.widget.SwipeRefreshLayout>
 
-        <Button
+       <!--<Button
             android:id="@+id/recibirData"
 
             android:text="Actualizar"
@@ -63,13 +63,36 @@
             android:layout_width="120dp"
             android:layout_height="50dp"
             android:background="@drawable/buttonshape"
-            />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            />
-        <Button
+            />-->
+        <com.spark.submitbutton.SubmitButton
+            android:textSize="10dp"
+            android:id="@+id/recibirData"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Actualizar"
+            android:textColor="@color/white"
+            app:sub_btn_background="#10FFFFFF"
+            app:sub_btn_duration="1000"
+            app:sub_btn_line_color="@color/white"
+            app:sub_btn_ripple_color="#000"
+            app:sub_btn_tick_color="#000" />
+
+        <com.spark.submitbutton.SubmitButton
+            android:layout_marginTop="-30dp"
+            android:layout_marginBottom="-30dp"
+            android:textSize="10dp"
             android:id="@+id/logOut"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Salir"
+            android:textColor="@color/white"
+            app:sub_btn_background="#10FFFFFF"
+            app:sub_btn_duration="3000"
+            app:sub_btn_line_color="@color/white"
+            app:sub_btn_ripple_color="#000"
+            app:sub_btn_tick_color="#000" />
+        <!--<Button
+            android:id="@+id/Salir"
 
             android:text="Salir"
 
@@ -81,7 +104,7 @@
             android:layout_width="80dp"
             android:layout_height="45dp"
             android:background="@drawable/buttonshape"
-            />
+            />-->
 
     </LinearLayout>
 

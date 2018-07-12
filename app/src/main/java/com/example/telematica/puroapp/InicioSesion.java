@@ -14,6 +14,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.spark.submitbutton.SubmitButton;
 
 public class InicioSesion extends AppCompatActivity {
 
@@ -21,7 +22,7 @@ public class InicioSesion extends AppCompatActivity {
     private FirebaseAuth.AuthStateListener firebaseAuthListener;
 
     EditText password,emails;
-    Button logIn;
+    SubmitButton logIn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +31,7 @@ public class InicioSesion extends AppCompatActivity {
 
         password = (EditText) findViewById(R.id.password);
         emails = (EditText) findViewById(R.id.email);
-        logIn = (Button) findViewById(R.id.logIn);
+        logIn = (SubmitButton) findViewById(R.id.logIn);
 
         Auth = FirebaseAuth.getInstance();
         firebaseAuthListener = new FirebaseAuth.AuthStateListener() {
