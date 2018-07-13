@@ -60,7 +60,7 @@ public class InicioSesion extends AppCompatActivity {
                         if(task.isSuccessful()){
                             Toast.makeText(InicioSesion.this, "Inicio de sesión correcto", Toast.LENGTH_SHORT).show();
                         }else{
-                            Toast.makeText(InicioSesion.this, "Error en las credenciales, intente de nuevo", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(InicioSesion.this, "Hubo un error, intente de nuevo", Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
