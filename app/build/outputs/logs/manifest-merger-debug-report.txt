@@ -1,0 +1,456 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml:2:1-35:12
+MERGED from [me.spark:submitbutton:1.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\submitbutton-1.0.1.aar\79bfe55f6fc82fca985914ba153cadd9\AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\957e34569b857e6e1b7e985a573e4417\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\4f366ac746684ef88ab0b0f9964b6575\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.1.aar\e512db8405c6c290d3727195bcaf9084\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-auth:16.0.2] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.2.aar\dc7ab7ef715517d6d1a01bd6e0e3c367\AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.firebase:firebase-messaging:17.1.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.1.0.aar\f97d47200ecbfb0b8da914b41ceb5365\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-database:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-database-16.0.1.aar\4d26f7c19b40d177fb48c873c039e294\AndroidManifest.xml:2:1-8:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\01e9031d3aafe2c5a155176296bf499a\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\b3a87ceb112dc7ad96791d52073cf914\AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\c76b15fc5db485ca97b77770bb917f7e\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\play-services-flags-15.0.1.aar\8d7fa74d93d538b8a57d438bc6814ee2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.0.aar\013f8407b41cafecbc643de2b9079489\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\2d75727a80da5745cebb39e97602837e\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:17:1-65:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.0.aar\6d67a8227f57af817aa6e0393c9c63e8\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\f5f8a0640e5f570febe1337bdebf183b\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-16.0.1.aar\3b65313806640609c6c81364a32e370b\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:16.0.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.0.aar\12cabffaf06d1e97fb106b5f29fcf18e\AndroidManifest.xml:2:1-16:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\db5d87347e2d745dbee9324d3b57dbdf\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-16.0.0.aar\62e2588224634e22f627391e2132a047\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-database-collection-15.0.1.aar\e6969a9dcea56b8b6ad232778855cbc3\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\play-services-stats-15.0.1.aar\c23e145ed134aef158d92ed232422d21\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\4874c47a2627f2738738375ebef4dad7\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\2127513b88adb8923207406daf490546\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\a7a6a95acb8cfb22e7cc1fe3af36139c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\f3a8e82d03c1adb98a469b862bd27bcc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\65f4bef6e5fd2a1ef6d05a2870d70729\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\f0296850b12645009b24c433f103d20a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\c04323d597be91e00347ada76d0b7f45\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\eb5c74d3a9a70cbd046a3209dfaba239\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\0c838e17f9aeedc24fcdeed15f3ff51d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\ce85440f92d9b8925ac7dbdb8a0e8a1e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\929f3dd3f7cee633e72741f37fbd7987\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\be12c1737bc7e4c800a8eb690c9375e8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.0.aar\94ca1814d175f4738c48421160f644c0\AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\c84609e519d246306b0a4a2f9bfb52c1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\2ba338c4079e5b156a014d55e145ec2e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\28458f07428d2be2b3c105afa32bda53\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\690d14d1e005fea9d04d10b59633c335\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml:2:1-35:12
+	package
+		ADDED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml:4:5-45
+		INJECTED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml:2:1-35:12
+		INJECTED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml:2:1-35:12
+		INJECTED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml:6:5-34:19
+MERGED from [me.spark:submitbutton:1.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\submitbutton-1.0.1.aar\79bfe55f6fc82fca985914ba153cadd9\AndroidManifest.xml:11:5-15:19
+MERGED from [me.spark:submitbutton:1.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\submitbutton-1.0.1.aar\79bfe55f6fc82fca985914ba153cadd9\AndroidManifest.xml:11:5-15:19
+MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.1.aar\e512db8405c6c290d3727195bcaf9084\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.1.aar\e512db8405c6c290d3727195bcaf9084\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth:16.0.2] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.2.aar\dc7ab7ef715517d6d1a01bd6e0e3c367\AndroidManifest.xml:22:5-36:19
+MERGED from [com.google.firebase:firebase-auth:16.0.2] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.2.aar\dc7ab7ef715517d6d1a01bd6e0e3c367\AndroidManifest.xml:22:5-36:19
+MERGED from [com.google.firebase:firebase-messaging:17.1.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.1.0.aar\f97d47200ecbfb0b8da914b41ceb5365\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.1.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.1.0.aar\f97d47200ecbfb0b8da914b41ceb5365\AndroidManifest.xml:22:5-35:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\01e9031d3aafe2c5a155176296bf499a\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\01e9031d3aafe2c5a155176296bf499a\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\b3a87ceb112dc7ad96791d52073cf914\AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\b3a87ceb112dc7ad96791d52073cf914\AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\c76b15fc5db485ca97b77770bb917f7e\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\c76b15fc5db485ca97b77770bb917f7e\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.0.aar\013f8407b41cafecbc643de2b9079489\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.0.aar\013f8407b41cafecbc643de2b9079489\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\2d75727a80da5745cebb39e97602837e\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\2d75727a80da5745cebb39e97602837e\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.0.aar\6d67a8227f57af817aa6e0393c9c63e8\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.0.aar\6d67a8227f57af817aa6e0393c9c63e8\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\f5f8a0640e5f570febe1337bdebf183b\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\f5f8a0640e5f570febe1337bdebf183b\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.0.aar\12cabffaf06d1e97fb106b5f29fcf18e\AndroidManifest.xml:8:5-14:19
+MERGED from [com.google.firebase:firebase-common:16.0.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.0.aar\12cabffaf06d1e97fb106b5f29fcf18e\AndroidManifest.xml:8:5-14:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\db5d87347e2d745dbee9324d3b57dbdf\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\db5d87347e2d745dbee9324d3b57dbdf\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-16.0.0.aar\62e2588224634e22f627391e2132a047\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-16.0.0.aar\62e2588224634e22f627391e2132a047\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\play-services-stats-15.0.1.aar\c23e145ed134aef158d92ed232422d21\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\play-services-stats-15.0.1.aar\c23e145ed134aef158d92ed232422d21\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\4874c47a2627f2738738375ebef4dad7\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\4874c47a2627f2738738375ebef4dad7\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\2127513b88adb8923207406daf490546\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\2127513b88adb8923207406daf490546\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.0.aar\94ca1814d175f4738c48421160f644c0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.0.aar\94ca1814d175f4738c48421160f644c0\AndroidManifest.xml:22:5-20
+	tools:node
+		ADDED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml:13:9-27
+	android:supportsRtl
+		ADDED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml:9:9-41
+	android:roundIcon
+		ADDED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml:10:9-54
+	android:icon
+		ADDED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml:12:9-65
+service#com.example.telematica.puroapp.FireIDService
+ADDED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml:14:9-18:19
+	android:name
+		ADDED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml:14:18-47
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml:15:13-17:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml:16:17-80
+	android:name
+		ADDED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml:16:25-77
+service#com.example.telematica.puroapp.FireMsgService
+ADDED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml:19:9-23:19
+	android:name
+		ADDED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml:19:18-48
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml:20:13-22:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml:21:17-78
+	android:name
+		ADDED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml:21:25-75
+activity#com.example.telematica.puroapp.MainActivity
+ADDED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml:25:9-26:20
+	android:name
+		ADDED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml:25:19-47
+activity#com.example.telematica.puroapp.InicioSesion
+ADDED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml:28:9-33:20
+	android:label
+		ADDED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml:28:48-80
+	android:name
+		ADDED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml:28:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml:29:13-32:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml:30:17-69
+	android:name
+		ADDED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml:30:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml:31:17-77
+	android:name
+		ADDED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml:31:27-74
+uses-sdk
+INJECTED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml
+MERGED from [me.spark:submitbutton:1.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\submitbutton-1.0.1.aar\79bfe55f6fc82fca985914ba153cadd9\AndroidManifest.xml:7:5-9:41
+MERGED from [me.spark:submitbutton:1.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\submitbutton-1.0.1.aar\79bfe55f6fc82fca985914ba153cadd9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:27.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\957e34569b857e6e1b7e985a573e4417\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\957e34569b857e6e1b7e985a573e4417\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\4f366ac746684ef88ab0b0f9964b6575\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\4f366ac746684ef88ab0b0f9964b6575\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.1.aar\e512db8405c6c290d3727195bcaf9084\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.1.aar\e512db8405c6c290d3727195bcaf9084\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:16.0.2] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.2.aar\dc7ab7ef715517d6d1a01bd6e0e3c367\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:16.0.2] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.2.aar\dc7ab7ef715517d6d1a01bd6e0e3c367\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.1.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.1.0.aar\f97d47200ecbfb0b8da914b41ceb5365\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.1.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.1.0.aar\f97d47200ecbfb0b8da914b41ceb5365\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-database-16.0.1.aar\4d26f7c19b40d177fb48c873c039e294\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-database-16.0.1.aar\4d26f7c19b40d177fb48c873c039e294\AndroidManifest.xml:6:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\01e9031d3aafe2c5a155176296bf499a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\01e9031d3aafe2c5a155176296bf499a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\b3a87ceb112dc7ad96791d52073cf914\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\b3a87ceb112dc7ad96791d52073cf914\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\c76b15fc5db485ca97b77770bb917f7e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\c76b15fc5db485ca97b77770bb917f7e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\play-services-flags-15.0.1.aar\8d7fa74d93d538b8a57d438bc6814ee2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\play-services-flags-15.0.1.aar\8d7fa74d93d538b8a57d438bc6814ee2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.0.aar\013f8407b41cafecbc643de2b9079489\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.0.aar\013f8407b41cafecbc643de2b9079489\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\2d75727a80da5745cebb39e97602837e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\2d75727a80da5745cebb39e97602837e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.0.aar\6d67a8227f57af817aa6e0393c9c63e8\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.0.aar\6d67a8227f57af817aa6e0393c9c63e8\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\f5f8a0640e5f570febe1337bdebf183b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\f5f8a0640e5f570febe1337bdebf183b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-16.0.1.aar\3b65313806640609c6c81364a32e370b\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-16.0.1.aar\3b65313806640609c6c81364a32e370b\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.0.aar\12cabffaf06d1e97fb106b5f29fcf18e\AndroidManifest.xml:5:5-6:37
+MERGED from [com.google.firebase:firebase-common:16.0.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.0.aar\12cabffaf06d1e97fb106b5f29fcf18e\AndroidManifest.xml:5:5-6:37
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\db5d87347e2d745dbee9324d3b57dbdf\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\db5d87347e2d745dbee9324d3b57dbdf\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-16.0.0.aar\62e2588224634e22f627391e2132a047\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-16.0.0.aar\62e2588224634e22f627391e2132a047\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-database-collection-15.0.1.aar\e6969a9dcea56b8b6ad232778855cbc3\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-database-collection-15.0.1.aar\e6969a9dcea56b8b6ad232778855cbc3\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\play-services-stats-15.0.1.aar\c23e145ed134aef158d92ed232422d21\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\play-services-stats-15.0.1.aar\c23e145ed134aef158d92ed232422d21\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\4874c47a2627f2738738375ebef4dad7\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\4874c47a2627f2738738375ebef4dad7\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\2127513b88adb8923207406daf490546\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\2127513b88adb8923207406daf490546\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\a7a6a95acb8cfb22e7cc1fe3af36139c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\a7a6a95acb8cfb22e7cc1fe3af36139c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\f3a8e82d03c1adb98a469b862bd27bcc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\f3a8e82d03c1adb98a469b862bd27bcc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\65f4bef6e5fd2a1ef6d05a2870d70729\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\65f4bef6e5fd2a1ef6d05a2870d70729\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\f0296850b12645009b24c433f103d20a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\f0296850b12645009b24c433f103d20a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\c04323d597be91e00347ada76d0b7f45\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\c04323d597be91e00347ada76d0b7f45\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\eb5c74d3a9a70cbd046a3209dfaba239\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\eb5c74d3a9a70cbd046a3209dfaba239\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\0c838e17f9aeedc24fcdeed15f3ff51d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\0c838e17f9aeedc24fcdeed15f3ff51d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\ce85440f92d9b8925ac7dbdb8a0e8a1e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\ce85440f92d9b8925ac7dbdb8a0e8a1e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\929f3dd3f7cee633e72741f37fbd7987\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\929f3dd3f7cee633e72741f37fbd7987\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\be12c1737bc7e4c800a8eb690c9375e8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\be12c1737bc7e4c800a8eb690c9375e8\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.0.aar\94ca1814d175f4738c48421160f644c0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.0.aar\94ca1814d175f4738c48421160f644c0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\c84609e519d246306b0a4a2f9bfb52c1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\c84609e519d246306b0a4a2f9bfb52c1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\2ba338c4079e5b156a014d55e145ec2e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\2ba338c4079e5b156a014d55e145ec2e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\28458f07428d2be2b3c105afa32bda53\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\28458f07428d2be2b3c105afa32bda53\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\690d14d1e005fea9d04d10b59633c335\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\690d14d1e005fea9d04d10b59633c335\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Telematica\AndroidStudioProjects\puroapp\app\src\main\AndroidManifest.xml
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:16.0.2] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.2.aar\dc7ab7ef715517d6d1a01bd6e0e3c367\AndroidManifest.xml:23:9-29:75
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:16.0.2] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.2.aar\dc7ab7ef715517d6d1a01bd6e0e3c367\AndroidManifest.xml:25:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:16.0.2] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.2.aar\dc7ab7ef715517d6d1a01bd6e0e3c367\AndroidManifest.xml:27:13-48
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.0.2] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.2.aar\dc7ab7ef715517d6d1a01bd6e0e3c367\AndroidManifest.xml:26:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:16.0.2] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.2.aar\dc7ab7ef715517d6d1a01bd6e0e3c367\AndroidManifest.xml:28:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:16.0.2] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.2.aar\dc7ab7ef715517d6d1a01bd6e0e3c367\AndroidManifest.xml:29:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.2] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.2.aar\dc7ab7ef715517d6d1a01bd6e0e3c367\AndroidManifest.xml:24:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:16.0.2] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.2.aar\dc7ab7ef715517d6d1a01bd6e0e3c367\AndroidManifest.xml:31:9-35:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\b3a87ceb112dc7ad96791d52073cf914\AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\b3a87ceb112dc7ad96791d52073cf914\AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:35:9-39:19
+MERGED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:35:9-39:19
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.2] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.2.aar\dc7ab7ef715517d6d1a01bd6e0e3c367\AndroidManifest.xml:31:18-89
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:16.0.2] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.2.aar\dc7ab7ef715517d6d1a01bd6e0e3c367\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:16.0.2] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.2.aar\dc7ab7ef715517d6d1a01bd6e0e3c367\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.2] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.2.aar\dc7ab7ef715517d6d1a01bd6e0e3c367\AndroidManifest.xml:33:17-109
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.1.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.1.0.aar\f97d47200ecbfb0b8da914b41ceb5365\AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.1.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.1.0.aar\f97d47200ecbfb0b8da914b41ceb5365\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.1.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.1.0.aar\f97d47200ecbfb0b8da914b41ceb5365\AndroidManifest.xml:29:13-82
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\b3a87ceb112dc7ad96791d52073cf914\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\c76b15fc5db485ca97b77770bb917f7e\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\c76b15fc5db485ca97b77770bb917f7e\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\2d75727a80da5745cebb39e97602837e\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\2d75727a80da5745cebb39e97602837e\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-16.0.1.aar\3b65313806640609c6c81364a32e370b\AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-16.0.1.aar\3b65313806640609c6c81364a32e370b\AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\b3a87ceb112dc7ad96791d52073cf914\AndroidManifest.xml:22:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\b3a87ceb112dc7ad96791d52073cf914\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\c76b15fc5db485ca97b77770bb917f7e\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\c76b15fc5db485ca97b77770bb917f7e\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\2d75727a80da5745cebb39e97602837e\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\2d75727a80da5745cebb39e97602837e\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\b3a87ceb112dc7ad96791d52073cf914\AndroidManifest.xml:23:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\b3a87ceb112dc7ad96791d52073cf914\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\c76b15fc5db485ca97b77770bb917f7e\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\c76b15fc5db485ca97b77770bb917f7e\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\2d75727a80da5745cebb39e97602837e\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\2d75727a80da5745cebb39e97602837e\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\b3a87ceb112dc7ad96791d52073cf914\AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\b3a87ceb112dc7ad96791d52073cf914\AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\b3a87ceb112dc7ad96791d52073cf914\AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\b3a87ceb112dc7ad96791d52073cf914\AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\c76b15fc5db485ca97b77770bb917f7e\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\2d75727a80da5745cebb39e97602837e\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\2d75727a80da5745cebb39e97602837e\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\c76b15fc5db485ca97b77770bb917f7e\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\c76b15fc5db485ca97b77770bb917f7e\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\c76b15fc5db485ca97b77770bb917f7e\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\c76b15fc5db485ca97b77770bb917f7e\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\c76b15fc5db485ca97b77770bb917f7e\AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\c76b15fc5db485ca97b77770bb917f7e\AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\2d75727a80da5745cebb39e97602837e\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\2d75727a80da5745cebb39e97602837e\AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\c76b15fc5db485ca97b77770bb917f7e\AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\c76b15fc5db485ca97b77770bb917f7e\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\c76b15fc5db485ca97b77770bb917f7e\AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\c76b15fc5db485ca97b77770bb917f7e\AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\c76b15fc5db485ca97b77770bb917f7e\AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\c76b15fc5db485ca97b77770bb917f7e\AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\c76b15fc5db485ca97b77770bb917f7e\AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\c76b15fc5db485ca97b77770bb917f7e\AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\c76b15fc5db485ca97b77770bb917f7e\AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\c76b15fc5db485ca97b77770bb917f7e\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\c76b15fc5db485ca97b77770bb917f7e\AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\c76b15fc5db485ca97b77770bb917f7e\AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\c76b15fc5db485ca97b77770bb917f7e\AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\c76b15fc5db485ca97b77770bb917f7e\AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\c76b15fc5db485ca97b77770bb917f7e\AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\c76b15fc5db485ca97b77770bb917f7e\AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:26:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:29:9-63
+permission#com.example.telematica.puroapp.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:29:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:32:22-76
+uses-permission#com.example.telematica.puroapp.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:32:22-76
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:37:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:41:9-50:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:43:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:44:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:42:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:45:13-49:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.example.telematica.puroapp
+ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:45:13-49:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:46:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:46:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:48:27-58
+category#com.example.telematica.puroapp
+ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:48:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:56:9-62:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:58:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\928eb37a819e9422bf4f0e2d6b51a00e\AndroidManifest.xml:57:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\f5f8a0640e5f570febe1337bdebf183b\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\f5f8a0640e5f570febe1337bdebf183b\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\f5f8a0640e5f570febe1337bdebf183b\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\f5f8a0640e5f570febe1337bdebf183b\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.0.aar\12cabffaf06d1e97fb106b5f29fcf18e\AndroidManifest.xml:9:9-13:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.0.aar\12cabffaf06d1e97fb106b5f29fcf18e\AndroidManifest.xml:11:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.0.aar\12cabffaf06d1e97fb106b5f29fcf18e\AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.0.aar\12cabffaf06d1e97fb106b5f29fcf18e\AndroidManifest.xml:13:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.0] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.0.aar\12cabffaf06d1e97fb106b5f29fcf18e\AndroidManifest.xml:10:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\2127513b88adb8923207406daf490546\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\2127513b88adb8923207406daf490546\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Telematica\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\2127513b88adb8923207406daf490546\AndroidManifest.xml:24:13-58
