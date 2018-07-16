@@ -1,17 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Tab1">
+    android:gravity="center"
+    android:background="@drawable/background"
+    android:orientation="vertical">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tab1"
-        android:layout_centerInParent="true"
-        android:textSize="30dp"
-        />
 
-</RelativeLayout>
+    <ImageView
+         android:layout_width="96dp"
+         android:layout_height="98dp"
+        android:layout_marginBottom="5dp"
+         android:background="@drawable/logo" />
+
+     <android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         android:id="@+id/swiperefresh"
+         android:layout_width="match_parent"
+         android:layout_height="280dp"
+         android:layout_marginBottom="8dp"
+         android:layout_marginEnd="8dp"
+         android:layout_marginStart="8dp"
+         android:layout_marginTop="10dp">
+
+
+         <ListView
+             android:id="@+id/lista"
+             android:layout_width="match_parent"
+             android:layout_height="300dp" />
+
+     </android.support.v4.widget.SwipeRefreshLayout>
+
+     <com.spark.submitbutton.SubmitButton
+         android:layout_marginTop="-30dp"
+         android:textSize="10dp"
+         android:id="@+id/recibirData"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:text="Actualizar"
+         android:textColor="@color/white"
+         app:sub_btn_background="#10FFFFFF"
+         app:sub_btn_duration="1000"
+         app:sub_btn_line_color="@color/white"
+         app:sub_btn_ripple_color="#000"
+         app:sub_btn_tick_color="#000" />
+
+     <com.spark.submitbutton.SubmitButton
+         android:layout_marginTop="-30dp"
+         android:layout_marginBottom="-30dp"
+         android:textSize="10dp"
+         android:id="@+id/logOut"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:text="Salir"
+         android:textColor="@color/white"
+         app:sub_btn_background="#10FFFFFF"
+         app:sub_btn_duration="3000"
+         app:sub_btn_line_color="@color/white"
+         app:sub_btn_ripple_color="#000"
+         app:sub_btn_tick_color="#000" />
+
+</LinearLayout>

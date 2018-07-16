@@ -1,11 +1,15 @@
 package com.example.telematica.puroapp;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -24,6 +28,11 @@ public class InicioSesion extends AppCompatActivity {
     EditText password,emails;
     SubmitButton logIn;
 
+    private CheckBox saveLoginCheckBox;
+    private SharedPreferences loginPreferences;
+    private SharedPreferences.Editor loginPrefsEditor;
+    private Boolean saveLogin;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,6 +41,17 @@ public class InicioSesion extends AppCompatActivity {
         password = (EditText) findViewById(R.id.password);
         emails = (EditText) findViewById(R.id.email);
         logIn = (SubmitButton) findViewById(R.id.logIn);
+
+        saveLoginCheckBox = (CheckBox)findViewById(R.id.checkBox);
+        loginPreferences = getSharedPreferences("loginPrefs", MODE_PRIVATE);
+        loginPrefsEditor = loginPreferences.edit();
+
+        saveLogin = loginPreferences.getBoolean("saveLogin", false);
+        if (saveLogin == true) {
+            emails.setText(loginPreferences.getString("username", ""));
+            password.setText(loginPreferences.getString("password", ""));
+            saveLoginCheckBox.setChecked(true);
+        }
 
         Auth = FirebaseAuth.getInstance();
         firebaseAuthListener = new FirebaseAuth.AuthStateListener() {
@@ -51,8 +71,22 @@ public class InicioSesion extends AppCompatActivity {
         logIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                InputMethodManager imm = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
+                imm.hideSoftInputFromWindow(emails.getWindowToken(), 0);
+
+
                 String mail = emails.getText().toString();
                 String pass = password.getText().toString();
+
+                if (saveLoginCheckBox.isChecked()) {
+                    loginPrefsEditor.putBoolean("saveLogin", true);
+                    loginPrefsEditor.putString("username", mail);
+                    loginPrefsEditor.putString("password", pass);
+                    loginPrefsEditor.commit();
+                } else {
+                    loginPrefsEditor.clear();
+                    loginPrefsEditor.commit();
+                }
 
                 Auth.signInWithEmailAndPassword(mail,pass).addOnCompleteListener(InicioSesion.this, new OnCompleteListener<AuthResult>() {
                     @Override
@@ -81,4 +115,5 @@ public class InicioSesion extends AppCompatActivity {
         super.onStop();
         Auth.removeAuthStateListener(firebaseAuthListener);
     }
+
 }

@@ -33,6 +33,6 @@ public class PageAdapter extends FragmentStatePagerAdapter{
 
     @Override
     public int getCount() {
-        return 0;
+        return numTabs;
     }
 }
